@@ -1,18 +1,18 @@
 # Quick Sort
 
--In Quick Sort we use pivot and partition method which is similar to divide and Conquer
--Pivot is selected and on that basis the whole array is divided
--Pivot is the basically the element of an array, around which we do the left and right partitions for ex - elements smaller to pivot are on left array and vice versa
--Pivot can be any random element in an array or it can be first element or last element or median 
--In most of the cases we assume pivot as a last element if array is not sorted 
+-In Quick Sort we use pivot and partition method which is similar to divide and Conquer\
+-Pivot is selected and on that basis the whole array is divided\
+-Pivot is the basically the element of an array, around which we do the left and right partitions for ex - elements smaller to pivot are on left array and vice versa\
+-Pivot can be any random element in an array or it can be first element or last element or median\
+-In most of the cases we assume pivot as a last element if array is not sorted\
 
-Step 1 - Select the pivot 
-Step 2 - On the basis of pivot, partition the array into left part and right part 
+Step 1 - Select the pivot \
+Step 2 - On the basis of pivot, partition the array into left part and right part \
        - left part has elements smaller than pivot
        - right part has elements greater than pivot
-Step 3 - Call quickSort for left and right part 
+Step 3 - Call quickSort for left and right part \
 
-Actual work is done by the partition function. It is responsible for arranging the elements in correct order
+Actual work is done by the partition function. It is responsible for arranging the elements in correct order\
 
 # TC & SC
 TC - O(n log n)
