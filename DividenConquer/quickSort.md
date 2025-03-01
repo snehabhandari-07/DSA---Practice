@@ -22,6 +22,6 @@ In worst case - O(n^2)\
 
 
 SC - O(1)\
-As changes are done in original array \
+As changes are done in original array 
 
-When space needs to be constant choose quick Sort\
+When space needs to be constant choose quick Sort
