@@ -8,7 +8,7 @@
                 Using Pointers compare elements from left and right part and the one smaller will be placed in a temp array 
     Step 6 - Copy temp array into original array
 
-# TC - O(n log n) 
-# SC - O(n) as it uses the temp array 
+TC - O(n log n) 
+SC - O(n) as it uses the temp array 
        
-       Merge Sort is a one of the stable sorting and is perferred to use in linked list rather than arrays
+Merge Sort is a one of the stable sorting and is perferred to use in linked list rather than arrays
